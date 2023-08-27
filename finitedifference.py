@@ -76,7 +76,7 @@ def main():
 		# update time
 		t += dt
 		
-		print(t, np.min(U), np.max(U))
+		print(t)
 		
 		# plot in real time
 		if (plotRealTime) or (t >= tEnd):
